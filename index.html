@@ -439,10 +439,6 @@
 
 <script type="text/javascript">
 	    $(document).ready(function (){
-            /*  $("#commodities").click(function(){
-                $(".commodities-wrapper").toggle('200');
-            });  */
-		   
 			$("#commodities").click(function(){
     $("#commList").slideToggle( "slow" );
     if($(this).text() == "Show"){
@@ -458,14 +454,6 @@
 	  dots: false,
 	  pagination: false,
       singleItem:true
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
   });
   
   $("#sidebanner").owlCarousel({
@@ -479,19 +467,9 @@
     pagination: false,
     scrollPerPage : false,
     autoPlay: true,
-      // "singleItem:true" is a shortcut for:
-       //items : 2, 
-      //itemsDesktop : false,
-      //itemsDesktopSmall : true,
-      //itemsTablet: true,
-      //itemsMobile : true,
- 
+   
   });
-			
-			
-			
-			
-			
+		
         });
 		
 	
